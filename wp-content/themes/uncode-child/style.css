@@ -9,50 +9,50 @@ Version: 1.0.0
 Text Domain: uncode
 */
 @font-face {
-  font-family: 'poppins';
+  font-family: "poppins";
   src: url("http://localhost:8888/ildsjel/wp-content/themes/uncode-child/fonts/poppins/poppins-light-webfont.woff2") format("woff2"), url("http://localhost:8888/ildsjel/wp-content/themes/uncode-child/fonts/poppins/poppins-light-webfont.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'poppins';
+  font-family: "poppins";
   src: url("http://localhost:8888/ildsjel/wp-content/themes/uncode-child/fonts/poppins/poppins-regular-webfont.woff2") format("woff2"), url("http://localhost:8888/ildsjel/wp-content/themes/uncode-child/fonts/poppins/poppins-regular-webfont.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'poppins';
+  font-family: "poppins";
   src: url("http://localhost:8888/ildsjel/wp-content/themes/uncode-child/fonts/poppins/poppins-medium-webfont.woff2") format("woff2"), url("http://localhost:8888/ildsjel/wp-content/themes/uncode-child/fonts/poppins/poppins-medium-webfont.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'poppins';
+  font-family: "poppins";
   src: url("http://localhost:8888/ildsjel/wp-content/themes/uncode-child/fonts/poppins/poppins-semibold-webfont.woff2") format("woff2"), url("http://localhost:8888/ildsjel/wp-content/themes/uncode-child/fonts/poppins/poppins-semibold-webfont.woff") format("woff");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'poppins';
+  font-family: "poppins";
   src: url("http://localhost:8888/ildsjel/wp-content/themes/uncode-child/fonts/poppins/poppins-bold-webfont.woff2") format("woff2"), url("http://localhost:8888/ildsjel/wp-content/themes/uncode-child/fonts/poppins/poppins-bold-webfont.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'domaine';
+  font-family: "domaine";
   src: url("http://localhost:8888/ildsjel/wp-content/themes/uncode-child/fonts/domaine/DomaineDisplayWeb-Bold.eot") format("eot"), url("http://localhost:8888/ildsjel/wp-content/themes/uncode-child/fonts/domaine/DomaineDisplayWeb-Bold.woff2") format("woff2"), url("http://localhost:8888/ildsjel/wp-content/themes/uncode-child/fonts/domaine/DomaineDisplayWeb-Bold.woff") format("woff");
   font-weight: 600;
   font-style: bold;
 }
 
-/* line 74, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+/* line 75, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
 .intro p {
-  font-family: 'poppins';
+  font-family: "poppins";
   color: #226d69 !important;
   font-size: 25px !important;
   font-weight: 500  !important;
@@ -62,15 +62,37 @@ Text Domain: uncode
 }
 
 /* line 84, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
-h1 {
-  font-family: 'domaine';
+.intro h1 {
+  font-family: "domaine";
   font-size: 80px !important;
   color: #226d69 !important;
 }
 
-/* line 90, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+/* line 92, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.gray {
+  background-color: #ebebec;
+}
+
+/* line 94, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.gray h1 {
+  font-family: "domaine";
+  font-size: 60px !important;
+  color: #dd723b !important;
+}
+
+/* line 99, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.gray p {
+  font-family: "poppins";
+  color: #dd723b !important;
+  font-size: 15px !important;
+  font-weight: 500  !important;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+/* line 112, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
 h5 {
-  font-family: 'poppins';
+  font-family: "poppins";
   text-transform: uppercase;
   font-size: 14px !important;
   font-weight: 700 !important;
@@ -78,10 +100,10 @@ h5 {
   color: #226d69 !important;
 }
 
-/* line 99, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+/* line 121, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
 h5:before {
   content: "";
-  width: 20%;
+  width: 10%;
   height: 1px;
   position: relative;
   display: inline-block;
@@ -90,10 +112,10 @@ h5:before {
   margin-right: 20px;
 }
 
-/* line 110, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+/* line 132, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
 h5:after {
   content: "";
-  width: 20%;
+  width: 10%;
   height: 1px;
   position: relative;
   display: inline-block;
@@ -102,12 +124,12 @@ h5:after {
   margin-left: 20px;
 }
 
-/* line 121, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+/* line 143, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
 .intro .row.limit-width.row-parent {
   max-width: 100% !important;
 }
 
-/* line 125, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+/* line 147, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
 .intro .row.limit-width.row-parent:before {
   background-image: url("http://localhost:8888/ildsjel/wp-content/uploads/2016/09/Ildsjel_texture-3.png");
   content: "";
@@ -120,25 +142,189 @@ h5:after {
   background-position: 100%;
 }
 
-/* line 137, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+/* line 159, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
 .style-color-iopl-bg {
   background-color: #5ec4b6 !important;
 }
 
-/* line 141, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+/* line 163, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
 .pad-top {
   padding-top: 100px;
 }
 
-/* line 145, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+/* line 167, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
 .pad-btm {
   padding-bottom: 100px;
 }
 
-/* line 149, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+/* line 171, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
 .pad-top-btm {
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+/* line 176, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.intro .play-video, .play-video {
+  border-radius: 50% !important;
+  text-align: center !important;
+  display: table !important;
+  margin: 0 auto;
+  background-color: transparent !important;
+  border: 0px !important;
+  -webkit-transition: none;
+  transition: none;
+  width: 93px;
+  height: 93px;
+  margin-bottom: 80px;
+}
+
+/* line 187, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.intro .play-video:hover, .play-video:hover {
+  border: 0px !important;
+}
+
+/* line 190, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.intro .play-video:after, .play-video:after {
+  content: "►";
+  font-size: 35px;
+  color: #dd723b;
+  margin-right: -20px;
+  border: 1px solid #dd723b;
+  border-radius: 50% !important;
+  padding: 17px 29px;
+  background-color: #ebebec;
+  z-index: 100000;
+  position: relative;
+  margin-left: -5px;
+}
+
+/* line 203, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.intro .play-video:before, .play-video:before {
+  content: "";
+  width: 93px;
+  height: 93px;
+  display: block;
+  background: -webkit-repeating-linear-gradient(35deg, #dd723b, #dd723b 1px, transparent 1px, transparent 3px);
+  background: repeating-linear-gradient(55deg, #dd723b, #dd723b 1px, transparent 1px, transparent 3px);
+  border-radius: 50%;
+  border: 1px solid transparent;
+  position: absolute;
+  top: 0px;
+  z-index: 10;
+}
+
+@-webkit-keyframes wobble {
+  16.65% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+  33.3% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes wobble {
+  16.65% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+  33.3% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+/* line 290, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.wobble {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 300, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.wobble:hover, .wobble:focus, .wobble:active {
+  -webkit-animation-name: wobble;
+  animation-name: wobble;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+/* line 311, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+span.btn-container {
+  text-align: center;
+}
+
+/* line 315, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+a.shadow-btn.wobble {
+  border: 0px solid #dd723b !important;
+  border-radius: 0px !important;
+  background: -webkit-repeating-linear-gradient(35deg, #dd723b, #dd723b 1px, transparent 1px, transparent 3px);
+  background: repeating-linear-gradient(55deg, #dd723b, #dd723b 1px, transparent 1px, transparent 3px);
+  background-color: transparent !important;
+  color: #dd723b !important;
+  font-family: "adobe-caslon-pro" !important;
+  font-weight: 600 !important;
+  font-style: italic !important;
+  text-transform: capitalize !important;
+  letter-spacing: 0px !important;
+  font-size: 18px !important;
+  padding: 5px 100px !important;
+  margin: 0 auto !important;
+}
+
+/* line 336, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+a.shadow-btn.wobble:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #ebebec;
+  border: 1px solid #dd723b;
+  left: -4px;
+  z-index: -10;
+  top: -4px;
 }
 
 @-webkit-keyframes rotate {

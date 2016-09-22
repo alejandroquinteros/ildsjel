@@ -11,7 +11,7 @@ Text Domain: uncode
 
 
 @font-face {
-    font-family: 'poppins';
+    font-family: $font-one;
     src: url('http://localhost:8888/ildsjel/wp-content/themes/uncode-child/fonts/poppins/poppins-light-webfont.woff2') format('woff2'),
          url('http://localhost:8888/ildsjel/wp-content/themes/uncode-child/fonts/poppins/poppins-light-webfont.woff') format('woff');
     font-weight: 300;
@@ -21,7 +21,7 @@ Text Domain: uncode
 
 
 @font-face {
-    font-family: 'poppins';
+    font-family: $font-one;
     src: url('http://localhost:8888/ildsjel/wp-content/themes/uncode-child/fonts/poppins/poppins-regular-webfont.woff2') format('woff2'),
          url('http://localhost:8888/ildsjel/wp-content/themes/uncode-child/fonts/poppins/poppins-regular-webfont.woff') format('woff');
     font-weight: 400;
@@ -31,7 +31,7 @@ Text Domain: uncode
 
 
 @font-face {
-    font-family: 'poppins';
+    font-family: $font-one;
     src: url('http://localhost:8888/ildsjel/wp-content/themes/uncode-child/fonts/poppins/poppins-medium-webfont.woff2') format('woff2'),
          url('http://localhost:8888/ildsjel/wp-content/themes/uncode-child/fonts/poppins/poppins-medium-webfont.woff') format('woff');
     font-weight: 500;
@@ -41,7 +41,7 @@ Text Domain: uncode
 
 
 @font-face {
-    font-family: 'poppins';
+    font-family: $font-one;
     src: url('http://localhost:8888/ildsjel/wp-content/themes/uncode-child/fonts/poppins/poppins-semibold-webfont.woff2') format('woff2'),
          url('http://localhost:8888/ildsjel/wp-content/themes/uncode-child/fonts/poppins/poppins-semibold-webfont.woff') format('woff');
     font-weight: 600;
@@ -51,7 +51,7 @@ Text Domain: uncode
 
 
 @font-face {
-    font-family: 'poppins';
+    font-family: $font-one;
     src: url('http://localhost:8888/ildsjel/wp-content/themes/uncode-child/fonts/poppins/poppins-bold-webfont.woff2') format('woff2'),
          url('http://localhost:8888/ildsjel/wp-content/themes/uncode-child/fonts/poppins/poppins-bold-webfont.woff') format('woff');
     font-weight: 700;
@@ -60,7 +60,7 @@ Text Domain: uncode
 }
 
 @font-face {
-    font-family: 'domaine';
+    font-family: $font-three;
     src: url('http://localhost:8888/ildsjel/wp-content/themes/uncode-child/fonts/domaine/DomaineDisplayWeb-Bold.eot') format('eot'),
          url('http://localhost:8888/ildsjel/wp-content/themes/uncode-child/fonts/domaine/DomaineDisplayWeb-Bold.woff2') format('woff2'),
          url('http://localhost:8888/ildsjel/wp-content/themes/uncode-child/fonts/domaine/DomaineDisplayWeb-Bold.woff') format('woff');
@@ -71,49 +71,71 @@ Text Domain: uncode
 
 
 
-.intro p{
-    font-family: 'poppins';
-    color: #226d69 !important;
+.intro{
+    p{
+    font-family: $font-one;
+    color: $dark-teal !important;
     font-size: 25px !important;
     font-weight:500  !important;
     width: 70%;
     margin: 0 auto;
     margin-top: 20px;
+    }
+    h1{
+    font-family: $font-three;
+    font-size: 80px !important;
+    color: $dark-teal !important;
+    }
 }
 
-h1{
-    font-family: 'domaine';
-    font-size: 80px !important;
-    color: #226d69 !important;
+
+.gray {
+    background-color: $gray;
+    h1{
+    font-family: $font-three;
+    font-size: 60px !important;
+    color: $orange !important;
+    }
+    p{
+    font-family: $font-one;
+    color: $orange !important;
+    font-size: 15px !important;
+    font-weight:500  !important;
+    margin: 0 auto;
+    margin-top: 20px;
+    }
 }
+
+
+
 
 h5 {
-    font-family: 'poppins';
+    font-family: $font-one;
     text-transform: uppercase;
     font-size: 14px !important;
     font-weight: 700 !important;
     letter-spacing: 2.5px !important;
-    color: #226d69 !important;
+    color: $dark-teal !important;
 }
 
 h5:before{
     content:"";
-    width:20%;
+    width:10%;
     height: 1px;
     position:relative;
     display: inline-block;
-    background: #226d69;
+    background: $dark-teal;
     margin-bottom: 4px;
     margin-right:20px;
 }
 
 h5:after{
     content:"";
-    width:20%;
+    width:10%;
     height: 1px;
     position:relative;
     display: inline-block;
-    background:#226d69;
+    background:$dark-teal;
     margin-bottom: 4px;
     margin-left:20px;
 }
@@ -135,7 +157,7 @@ h5:after{
 }
 
 .style-color-iopl-bg{
-    background-color: #5ec4b6 !important;
+    background-color: $teal !important;
 }
 
 .pad-top{
@@ -150,3 +172,178 @@ h5:after{
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
+.intro .play-video, .play-video {
+    border-radius: 50% !important;
+    text-align: center !important;
+    display: table !important;
+    margin: 0 auto;
+    background-color: transparent !important;
+    border: 0px !important;
+    transition: none;
+    width:93px;
+    height: 93px;
+    margin-bottom: 80px;
+    &:hover{
+    border: 0px !important;
+    }
+    &:after{
+        content: "►";
+        font-size: 35px;
+        color: $orange;
+        margin-right:-20px;
+        border:1px solid $orange;
+        border-radius: 50% !important;
+        padding: 17px 29px;
+        background-color: $gray;
+        z-index: 100000;
+        position: relative;
+        margin-left: -5px; 
+    }
+    &:before{
+        content:"";
+        width: 93px;
+        height: 93px;
+        display: block;
+        background: repeating-linear-gradient(
+        55deg,
+        $orange,
+        $orange 1px,
+        transparent 1px,
+        transparent 3px
+        );
+        border-radius: 50%;
+        border: 1px solid transparent;
+        position: absolute;
+        top:0px;
+        z-index: 10;
+        
+    }
+
+}
+
+
+@-webkit-keyframes wobble {
+  16.65% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+
+  33.3% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes wobble {
+  16.65% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+
+  33.3% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+.wobble {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.wobble:hover, .wobble:focus, .wobble:active {
+  -webkit-animation-name: wobble;
+  animation-name: wobble;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+span.btn-container {
+    text-align: center;
+}
+
+a.shadow-btn.wobble{
+    border: 0px solid $orange !important;
+    border-radius: 0px !important;
+    background: repeating-linear-gradient(
+        55deg,
+        $orange,
+        $orange 1px,
+        transparent 1px,
+        transparent 3px
+        );
+    background-color: transparent !important;
+    color: $orange !important;
+    font-family: $font-two !important;
+    font-weight: 600 !important;
+    font-style: italic !important;
+    text-transform: capitalize !important;
+    letter-spacing: 0px !important;
+    font-size: 18px !important;
+    padding: 5px 100px !important;
+    margin: 0 auto !important;
+
+    &:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: $gray;
+    border: 1px solid $orange;
+    left: -4px;
+    z-index: -10;
+    top: -4px;
+    }
+}
+
+
