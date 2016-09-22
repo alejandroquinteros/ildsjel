@@ -64,7 +64,7 @@ var paths = {
     },
     styles: {
         input: relPath + 'src/sass/**/*.{scss,sass}',
-        output: relPath + 'dist/css/'
+        output: relPath + '/'
     },
     svgs: {
         input: relPath + 'src/svg/**/*',
@@ -139,7 +139,7 @@ gulp.task('build:scripts', ['clean:scripts'], function() {
 //   Build: Styles
 // -------------------------------------
 
-gulp.task('build:styles', ['clean:styles'], function() {
+gulp.task('build:styles', function() {
     return gulp.src(paths.styles.input)
         .pipe(plumber({
             errorHandler: handleError
@@ -158,7 +158,7 @@ gulp.task('build:styles', ['clean:styles'], function() {
             remove: true
         }))
         .pipe(header(banner.full, { package : package }))
-        .pipe(gulp.dest(paths.styles.output + "style.css"))
+        .pipe(gulp.dest(paths.styles.output))
         .pipe(livereload());
 });
 
@@ -527,7 +527,7 @@ gulp.task('refresh', ['compile'], function () {
 gulp.task('compile', [
     // 'lint:scripts',
     // 'clean:scripts',
-    'clean:styles',
+    // 'clean:styles',
     // 'clean:svgs',
     // 'build:scripts',
     'build:styles'
@@ -541,7 +541,7 @@ gulp.task('compile', [
 // ]);
 
 gulp.task('compile:styles', [
-    'clean:styles',
+    // 'clean:styles',
     'build:styles'
 ]);
 
