@@ -1,0 +1,22 @@
+{
+	"folders":
+	[
+		{
+			"path": "wp-content/themes/uncode-child/.",
+            "name": "THEME",
+			"folder_exclude_patterns": ["node_modules/*", "dist", "dump", ".cache", ".config", ".forever", ".node-gyp", "static"],
+			"file_exclude_patterns": ["*.css"]
+		},
+        {
+            "path": "/",
+            "name": "CONFIG",
+            "file_exclude_patterns": ["index.php", "license.txt", "wp-activate.php", "wp-blog-header.php", "wp-comments-post.php", "wp-config-sample.php", "wp-cron.php", "wp-links-opml.php", "wp-load.php", "wp-login.php", "wp-mail.php", "wp-settings.php", "wp-signup.php", "wp-trackback.php", "xmlrpc.php"],
+            "folder_exclude_patterns": ["node_modules", "wp-admin", "wp-content", "wp-includes"]
+      }
+
+    ],
+    "settings":
+    {
+        "tab_size": 4
+    }
+}
