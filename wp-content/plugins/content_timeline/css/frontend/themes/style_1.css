@@ -1,0 +1,91 @@
+.my_style_style_1 .item img{
+	position:absolute !important;
+	top:0;
+	left:0;
+	z-index:1;
+}
+.my_style_style_1 .my_timeline_content{
+	position:absolute !important;
+	bottom:10px !important;
+	z-index:3;
+}
+.my_style_style_1 .item .read_more{
+	position:static !important;
+	right:auto !important;
+	width:auto !important;
+	background:transparent !important;
+	text-align:left !important;
+	padding-left:0 !important;
+	display:block !important;
+	text-decoration:none !important;
+}
+.my_style_style_1 .item .post_date{
+  	position:static !important;
+	background:transparent !important;	
+}
+.my_style_style_1 .my_overlay{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	content:"";
+	background: -webkit-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8)); /* For Safari 5.1 to 6.0 */
+  	background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8)); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8)); /* For Safari 5.1 to 6.0 */
+  	background: -moz-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8)); /* For Safari 5.1 to 6.0 */
+  	z-index:2;
+}
+
+/*.my_style_style_1 .item::after{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	content:"";
+	background: -webkit-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.3)); !* For Safari 5.1 to 6.0 *!
+  	background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.3)); !* For Safari 5.1 to 6.0 *!
+  	background: -o-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.3)); !* For Safari 5.1 to 6.0 *!
+  	background: -moz-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.3)); !* For Safari 5.1 to 6.0 *!
+  	
+}*/
+.my_style_style_1 .item:hover::after{
+	display:none;
+}
+.my_style_style_1 .t_line_node{
+	color:#808080 !important;
+	font-size:11px !important;
+	background:url("") !important;
+}
+.my_style_style_1 .t_line_node.active{
+	color:#222222 !important;
+	font-size:11px !important;
+	background:url("") !important;
+}
+.my_style_style_1 .t_line_node::after{
+	content: "" !important;
+    border-radius: 50% !important;
+    height: 9px !important;
+    width: 9px !important;
+    /*border: 2px solid #ffffff;*/
+	border:none !important;
+	z-index:1 !important;
+	top: 25px !important;
+	left: 50% !important;
+	position:absolute !important;
+	margin: 0 0 0 -5px !important;
+	
+}
+.my_style_style_1 .t_line_node.active::after{
+	content: "" !important;
+    border-radius: 50% !important;
+    height: 12px !important;
+    width: 12px !important;
+    /*border: 2px solid #ffffff;*/
+	top:23px !important;
+	border:none !important;
+	z-index:1!important;
+	position:absolute!important;
+	margin: 0 0 0 -7px!important;
+}

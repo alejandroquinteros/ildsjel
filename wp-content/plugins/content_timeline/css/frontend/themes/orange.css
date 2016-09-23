@@ -1,0 +1,14 @@
+.my_style_orange .item .post_date{
+	height:35px;
+	width:35px;
+	box-sizing:content-box;
+}
+.my_style_orange .item .post_date span{
+	text-align:center !important;
+}
+.my_style_orange .item .read_more{
+	/*position:static ;
+	width:auto;
+	*/
+	right:auto !important;
+}

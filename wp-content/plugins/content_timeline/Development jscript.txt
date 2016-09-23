@@ -1,0 +1,14 @@
+myFindTimelineItemsHeight
+f-ja koja se koristi za resize i prikazuje iteme na osnovu heighta
+my_settings.myTotalHeight=total_1;
+				my_settings.myTotalView_Height=total;
+				my_settings.myMarginTop1=maring_top_1;
+				my_settings.myMarginTop=maring_top;
+				my_settings.myHeight=h;
+				my_settings.myTotalWidth=width;
+				if(width<=my_settings.mySmall){
+					my_settings.myIsSmall=1;
+				}else my_settings.myIsSmall=0;
+ if(window.console&&settings.my_debug){		
+}
+$this.VerticalTimeline("my_debug",multiply);

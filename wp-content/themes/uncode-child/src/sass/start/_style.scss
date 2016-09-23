@@ -69,6 +69,14 @@ Text Domain: uncode
 
 }
 
+@font-face {
+    font-family: $font-four;
+    src: url('http://localhost:8888/ildsjel/wp-content/themes/uncode-child/fonts/house/HouseSlant.woff2') format('woff2'),
+         url('http://localhost:8888/ildsjel/wp-content/themes/uncode-child/fonts/house/HouseSlant.woff') format('woff');
+    font-style: normal;
+
+}
+
 
 
 .intro{
@@ -88,28 +96,205 @@ Text Domain: uncode
     }
 }
 
+.teal{
+    h1{
+    font-family: $font-three;
+    font-size: 60px !important;
+    color: $dark-teal !important;
+    }
+    
+    p,b,p b, strong{
+    font-family: $font-one;
+    color: $dark-teal !important;
+    font-size: 15px !important;
+    margin: 0 auto;
+    margin-top: 20px;
+    }
+    p{
+    font-weight:400  !important;
+    }
+}
+
+.preview{
+    h1:before{
+        content: "";
+        border-top: 1px solid #226d69;
+        width: 20%;
+        height: 1px;
+        position: relative;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    h1:after{
+        content: "";
+        border-top: 1px solid #226d69;
+        width: 20%;
+        height: 1px;
+        position: relative;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    
+    h4 {
+    position: absolute;
+    font-size: 270px !important;
+    z-index:-10;
+    top:-120px;
+    font-family: $font-four;
+    letter-spacing:10px;
+    color: $light-teal;
+    left: 50%;
+    -ms-transform: translateX(-50%) rotate(-7deg); /* IE 9 */
+    -webkit-transform: translateX(-50%) rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: translateX(-50%) rotate(-7deg);
+    }
+
+    .owl-nav.disabled {
+    display: block !important;
+    }
+    
+}
+
+
+
+.owl-carousel-wrapper.style-light{
+    overflow: visible;
+}
+
+
+.owl-dots-inside .owl-dots {
+    margin-bottom: -41px !important;
+        .owl-dot span{
+            box-shadow: none;
+            border: 1px solid $dark-teal;
+            width: 15px !important;
+            height: 15px !important;
+            opacity: 1 !important;
+        }
+}
+
+.owl-dots-inside .owl-dots .owl-dot.active span{
+    background-color:$dark-teal !important;
+}
+
+.style-light .btn-default, .style-dark .style-light.style-override .btn-default, .style-dark .style-light .btn-default {
+    color: $gray !important;
+    background-color: $dark-teal !important;
+    border: 1px solid $gray !important;
+}
+
+.owl-prev .owl-nav-container{
+    border-radius: 0px !important;
+}
+
+.my_post_date {
+    font-family: $font-two !important;
+    font-size: 18px !important;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.timeline h4.t_line_month, #content .timeline h4.t_line_month{
+    font-family: $font-two !important;
+    font-size: 18px !important;
+    font-weight: 700;
+    font-style: italic;
+    color: $gray !important;
+}
+
+.my_timeline_content span {
+    font-family: $font-one !important;
+    font-size: 15px !important;
+}
+
+.my_timeline_content h2, .timeline_open_content h2{
+    font-family: $font-three !important;
+    font-size: 30px !important;
+    margin-bottom: 15px !important;
+}
+
+.dark-teal .timeline_open_content, .timeline_open_content{
+    padding: 40px !important;
+    p{
+        color: $dark-teal !important;
+        margin-top: 0px !important;
+    }
+}
+
+.item_open_content {
+    background: $gray !important;
+}
+
+.t_close:hover:after {
+    color: $dark-teal !important
+}
+
+.dark-teal .t_line_m .my_style_style_1 .t_line_node {
+    color: $gray !important;
+    font-size: 12px !important;
+}
+
+
+.timeline.flatNav .t_left, .timeline.flatNav .t_left:hover:active, #content .timeline.flatNav .t_left, #content .timeline.flatNav .t_left:hover:active {
+    left: 0;
+    background: rgba(34,109,105, 0.5) url('http://localhost:8888/ildsjel/wp-content/plugins/content_timeline/css/images/timeline/clean/blck-arrow-left.png') no-repeat center center !important;
+}
+
+.mCSB_container {
+    font-family: $font-one !important;
+    font-size: 15px !important;
+}
 
 .gray {
     background-color: $gray;
+
     h1{
     font-family: $font-three;
     font-size: 60px !important;
     color: $orange !important;
     }
-    p{
+    
+    p,b,p b{
     font-family: $font-one;
     color: $orange !important;
     font-size: 15px !important;
-    font-weight:500  !important;
     margin: 0 auto;
     margin-top: 20px;
+    }
+    p{
+    font-weight:400  !important;
+    }
+}
+
+.dark-teal {
+    background-color: $dark-teal;
+
+    h1{
+    font-family: $font-three;
+    font-size: 60px !important;
+    color: $gray !important;
+    }
+    
+    p,b,p b{
+    font-family: $font-one;
+    color: $gray !important;
+    font-size: 15px !important;
+    margin: 0 auto;
+    margin-top: 20px;
+    }
+    p{
+    font-weight:400  !important;
     }
 }
 
 
 
 
-h5 {
+h5, .read_more {
     font-family: $font-one;
     text-transform: uppercase;
     font-size: 14px !important;
@@ -142,9 +327,7 @@ h5:after{
 
 .intro .row.limit-width.row-parent{
     max-width: 100% !important;
-}
-
-.intro .row.limit-width.row-parent:before {
+    &:before{
     background-image: url('http://localhost:8888/ildsjel/wp-content/uploads/2016/09/Ildsjel_texture-3.png');
     content: "";
     background-size: cover;
@@ -154,7 +337,12 @@ h5:after{
     top: 0;
     left: 0;
     background-position: 100%;
+
+    }
 }
+
+
+
 
 .style-color-iopl-bg{
     background-color: $teal !important;
@@ -312,7 +500,7 @@ span.btn-container {
     text-align: center;
 }
 
-a.shadow-btn.wobble{
+a.shadow-btn-orange.wobble{
     border: 0px solid $orange !important;
     border-radius: 0px !important;
     background: repeating-linear-gradient(
@@ -340,6 +528,40 @@ a.shadow-btn.wobble{
     height: 100%;
     background: $gray;
     border: 1px solid $orange;
+    left: -4px;
+    z-index: -10;
+    top: -4px;
+    }
+}
+
+a.shadow-btn-dark-teal.wobble{
+    border: 0px solid $dark-teal !important;
+    border-radius: 0px !important;
+    background: repeating-linear-gradient(
+        55deg,
+        $dark-teal,
+        $dark-teal 1px,
+        transparent 1px,
+        transparent 3px
+        );
+    background-color: transparent !important;
+    color: $dark-teal !important;
+    font-family: $font-two !important;
+    font-weight: 600 !important;
+    font-style: italic !important;
+    text-transform: capitalize !important;
+    letter-spacing: 0px !important;
+    font-size: 18px !important;
+    padding: 5px 100px !important;
+    margin: 0 auto !important;
+
+    &:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: $gray;
+    border: 1px solid $dark-teal;
     left: -4px;
     z-index: -10;
     top: -4px;

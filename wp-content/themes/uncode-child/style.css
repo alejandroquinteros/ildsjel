@@ -50,7 +50,13 @@ Text Domain: uncode
   font-style: bold;
 }
 
-/* line 75, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+@font-face {
+  font-family: "house";
+  src: url("http://localhost:8888/ildsjel/wp-content/themes/uncode-child/fonts/house/HouseSlant.woff2") format("woff2"), url("http://localhost:8888/ildsjel/wp-content/themes/uncode-child/fonts/house/HouseSlant.woff") format("woff");
+  font-style: normal;
+}
+
+/* line 83, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
 .intro p {
   font-family: "poppins";
   color: #226d69 !important;
@@ -61,37 +67,240 @@ Text Domain: uncode
   margin-top: 20px;
 }
 
-/* line 84, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+/* line 92, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
 .intro h1 {
   font-family: "domaine";
   font-size: 80px !important;
   color: #226d69 !important;
 }
 
-/* line 92, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+/* line 100, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.teal h1 {
+  font-family: "domaine";
+  font-size: 60px !important;
+  color: #226d69 !important;
+}
+
+/* line 106, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.teal p, .teal b, .teal p b, .teal strong {
+  font-family: "poppins";
+  color: #226d69 !important;
+  font-size: 15px !important;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+/* line 113, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.teal p {
+  font-weight: 400  !important;
+}
+
+/* line 119, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.preview h1:before {
+  content: "";
+  border-top: 1px solid #226d69;
+  width: 20%;
+  height: 1px;
+  position: relative;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+/* line 130, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.preview h1:after {
+  content: "";
+  border-top: 1px solid #226d69;
+  width: 20%;
+  height: 1px;
+  position: relative;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+/* line 142, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.preview h4 {
+  position: absolute;
+  font-size: 270px !important;
+  z-index: -10;
+  top: -120px;
+  font-family: "house";
+  letter-spacing: 10px;
+  color: #81d0c5;
+  left: 50%;
+  /* IE 9 */
+  -webkit-transform: translateX(-50%) rotate(-7deg);
+  /* Chrome, Safari, Opera */
+  transform: translateX(-50%) rotate(-7deg);
+}
+
+/* line 156, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.preview .owl-nav.disabled {
+  display: block !important;
+}
+
+/* line 164, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.owl-carousel-wrapper.style-light {
+  overflow: visible;
+}
+
+/* line 169, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.owl-dots-inside .owl-dots {
+  margin-bottom: -41px !important;
+}
+
+/* line 171, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.owl-dots-inside .owl-dots .owl-dot span {
+  box-shadow: none;
+  border: 1px solid #226d69;
+  width: 15px !important;
+  height: 15px !important;
+  opacity: 1 !important;
+}
+
+/* line 180, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.owl-dots-inside .owl-dots .owl-dot.active span {
+  background-color: #226d69 !important;
+}
+
+/* line 184, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.style-light .btn-default, .style-dark .style-light.style-override .btn-default, .style-dark .style-light .btn-default {
+  color: #ebebec !important;
+  background-color: #226d69 !important;
+  border: 1px solid #ebebec !important;
+}
+
+/* line 190, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.owl-prev .owl-nav-container {
+  border-radius: 0px !important;
+}
+
+/* line 194, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.my_post_date {
+  font-family: "adobe-caslon-pro" !important;
+  font-size: 18px !important;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* line 201, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.timeline h4.t_line_month, #content .timeline h4.t_line_month {
+  font-family: "adobe-caslon-pro" !important;
+  font-size: 18px !important;
+  font-weight: 700;
+  font-style: italic;
+  color: #ebebec !important;
+}
+
+/* line 209, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.my_timeline_content span {
+  font-family: "poppins" !important;
+  font-size: 15px !important;
+}
+
+/* line 214, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.my_timeline_content h2, .timeline_open_content h2 {
+  font-family: "domaine" !important;
+  font-size: 30px !important;
+  margin-bottom: 15px !important;
+}
+
+/* line 220, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.dark-teal .timeline_open_content, .timeline_open_content {
+  padding: 40px !important;
+}
+
+/* line 222, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.dark-teal .timeline_open_content p, .timeline_open_content p {
+  color: #226d69 !important;
+  margin-top: 0px !important;
+}
+
+/* line 228, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.item_open_content {
+  background: #ebebec !important;
+}
+
+/* line 232, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.t_close:hover:after {
+  color: #226d69 !important;
+}
+
+/* line 236, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.dark-teal .t_line_m .my_style_style_1 .t_line_node {
+  color: #ebebec !important;
+  font-size: 12px !important;
+}
+
+/* line 242, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.timeline.flatNav .t_left, .timeline.flatNav .t_left:hover:active, #content .timeline.flatNav .t_left, #content .timeline.flatNav .t_left:hover:active {
+  left: 0;
+  background: rgba(34, 109, 105, 0.5) url("http://localhost:8888/ildsjel/wp-content/plugins/content_timeline/css/images/timeline/clean/blck-arrow-left.png") no-repeat center center !important;
+}
+
+/* line 247, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.mCSB_container {
+  font-family: "poppins" !important;
+  font-size: 15px !important;
+}
+
+/* line 252, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
 .gray {
   background-color: #ebebec;
 }
 
-/* line 94, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+/* line 255, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
 .gray h1 {
   font-family: "domaine";
   font-size: 60px !important;
   color: #dd723b !important;
 }
 
-/* line 99, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
-.gray p {
+/* line 261, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.gray p, .gray b, .gray p b {
   font-family: "poppins";
   color: #dd723b !important;
   font-size: 15px !important;
-  font-weight: 500  !important;
   margin: 0 auto;
   margin-top: 20px;
 }
 
-/* line 112, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
-h5 {
+/* line 268, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.gray p {
+  font-weight: 400  !important;
+}
+
+/* line 273, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.dark-teal {
+  background-color: #226d69;
+}
+
+/* line 276, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.dark-teal h1 {
+  font-family: "domaine";
+  font-size: 60px !important;
+  color: #ebebec !important;
+}
+
+/* line 282, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.dark-teal p, .dark-teal b, .dark-teal p b {
+  font-family: "poppins";
+  color: #ebebec !important;
+  font-size: 15px !important;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+/* line 289, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+.dark-teal p {
+  font-weight: 400  !important;
+}
+
+/* line 297, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+h5, .read_more {
   font-family: "poppins";
   text-transform: uppercase;
   font-size: 14px !important;
@@ -100,7 +309,7 @@ h5 {
   color: #226d69 !important;
 }
 
-/* line 121, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+/* line 306, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
 h5:before {
   content: "";
   width: 10%;
@@ -112,7 +321,7 @@ h5:before {
   margin-right: 20px;
 }
 
-/* line 132, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+/* line 317, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
 h5:after {
   content: "";
   width: 10%;
@@ -124,12 +333,12 @@ h5:after {
   margin-left: 20px;
 }
 
-/* line 143, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+/* line 328, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
 .intro .row.limit-width.row-parent {
   max-width: 100% !important;
 }
 
-/* line 147, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+/* line 330, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
 .intro .row.limit-width.row-parent:before {
   background-image: url("http://localhost:8888/ildsjel/wp-content/uploads/2016/09/Ildsjel_texture-3.png");
   content: "";
@@ -142,28 +351,28 @@ h5:after {
   background-position: 100%;
 }
 
-/* line 159, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+/* line 347, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
 .style-color-iopl-bg {
   background-color: #5ec4b6 !important;
 }
 
-/* line 163, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+/* line 351, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
 .pad-top {
   padding-top: 100px;
 }
 
-/* line 167, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+/* line 355, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
 .pad-btm {
   padding-bottom: 100px;
 }
 
-/* line 171, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+/* line 359, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
 .pad-top-btm {
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
-/* line 176, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+/* line 364, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
 .intro .play-video, .play-video {
   border-radius: 50% !important;
   text-align: center !important;
@@ -178,12 +387,12 @@ h5:after {
   margin-bottom: 80px;
 }
 
-/* line 187, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+/* line 375, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
 .intro .play-video:hover, .play-video:hover {
   border: 0px !important;
 }
 
-/* line 190, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+/* line 378, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
 .intro .play-video:after, .play-video:after {
   content: "►";
   font-size: 35px;
@@ -198,7 +407,7 @@ h5:after {
   margin-left: -5px;
 }
 
-/* line 203, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+/* line 391, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
 .intro .play-video:before, .play-video:before {
   content: "";
   width: 93px;
@@ -267,7 +476,7 @@ h5:after {
   }
 }
 
-/* line 290, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+/* line 478, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
 .wobble {
   display: inline-block;
   vertical-align: middle;
@@ -279,7 +488,7 @@ h5:after {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 300, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+/* line 488, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
 .wobble:hover, .wobble:focus, .wobble:active {
   -webkit-animation-name: wobble;
   animation-name: wobble;
@@ -291,13 +500,13 @@ h5:after {
   animation-iteration-count: 1;
 }
 
-/* line 311, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+/* line 499, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
 span.btn-container {
   text-align: center;
 }
 
-/* line 315, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
-a.shadow-btn.wobble {
+/* line 503, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+a.shadow-btn-orange.wobble {
   border: 0px solid #dd723b !important;
   border-radius: 0px !important;
   background: -webkit-repeating-linear-gradient(35deg, #dd723b, #dd723b 1px, transparent 1px, transparent 3px);
@@ -314,14 +523,45 @@ a.shadow-btn.wobble {
   margin: 0 auto !important;
 }
 
-/* line 336, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
-a.shadow-btn.wobble:before {
+/* line 524, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+a.shadow-btn-orange.wobble:before {
   content: "";
   position: absolute;
   width: 100%;
   height: 100%;
   background: #ebebec;
   border: 1px solid #dd723b;
+  left: -4px;
+  z-index: -10;
+  top: -4px;
+}
+
+/* line 537, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+a.shadow-btn-dark-teal.wobble {
+  border: 0px solid #226d69 !important;
+  border-radius: 0px !important;
+  background: -webkit-repeating-linear-gradient(35deg, #226d69, #226d69 1px, transparent 1px, transparent 3px);
+  background: repeating-linear-gradient(55deg, #226d69, #226d69 1px, transparent 1px, transparent 3px);
+  background-color: transparent !important;
+  color: #226d69 !important;
+  font-family: "adobe-caslon-pro" !important;
+  font-weight: 600 !important;
+  font-style: italic !important;
+  text-transform: capitalize !important;
+  letter-spacing: 0px !important;
+  font-size: 18px !important;
+  padding: 5px 100px !important;
+  margin: 0 auto !important;
+}
+
+/* line 558, /Users/Jandro/Documents/Pivot & Pilot/Gits/ildsjel/wp-content/themes/uncode-child/src/sass/start/_style.scss */
+a.shadow-btn-dark-teal.wobble:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #ebebec;
+  border: 1px solid #226d69;
   left: -4px;
   z-index: -10;
   top: -4px;
