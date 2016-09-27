@@ -77,6 +77,11 @@ Text Domain: uncode
 
 }
 
+body{
+	padding: 20px !important;
+	background-color: $gray !important;
+}
+
 .plan {
 	color: $orange !important;
 	border-color: $orange !important;
@@ -91,7 +96,7 @@ Text Domain: uncode
 	}
 	h3 {
 		text-transform: capitalize !important;
-		font-size: 18px !important;
+		font-size: 20px !important;
 		font-weight: 700 !important;
 		letter-spacing: 0px !important;
 		color: $orange !important ;
@@ -106,27 +111,26 @@ Text Domain: uncode
 .plan-button{
 		border: $orange !important;
 		padding: 0px !important;
-}
-
-.plan-button a.btn.btn-default {
-    width: 100%;
-    border: 0px !important;
-    border-radius: 0px !important;
-    background-color: #dd723b !important;
-    font-family: $font-two !important;
-    font-style: italic !important;
-    letter-spacing: 0px !important;
-    text-transform: capitalize !important;
-    font-size: 18px !important;
-    font-weight:700 !important;
-    border-top: 1px solid $orange !important;
-    margin-bottom: 0px !important;
-    transition: all $slow !important;
-    &:hover{
-    	background-color: $dark-teal !important;
-    	color: $gray !important;
-    	border-color: $dark-teal !important;
-    }
+	a.btn.btn-default {
+	    width: 100%;
+	    border: 0px !important;
+	    border-radius: 0px !important;
+	    background-color: #dd723b !important;
+	    font-family: $font-two !important;
+	    font-style: italic !important;
+	    letter-spacing: 0px !important;
+	    text-transform: capitalize !important;
+	    font-size: 20px !important;
+	    font-weight:700 !important;
+	    border-top: 1px solid $orange !important;
+	    margin-bottom: 0px !important;
+	    transition: all $slow !important;
+	    &:hover{
+	    	background-color: $dark-teal !important;
+	    	color: $gray !important;
+	    	border-color: $dark-teal !important;
+    	}
+	}
 }
 
 .style-light .plan .item-list > li, .style-light .plan .plan-title{
@@ -152,6 +156,11 @@ ul.item-list strong {
 		font-size: 80px !important;
 		color: $dark-teal !important;
 	}
+}
+
+h3{
+	color: $orange !important;
+	font-size: 20px !important;
 }
 
 .teal{
@@ -255,7 +264,7 @@ h3{
 
 .my_post_date {
 	font-family: $font-two !important;
-	font-size: 18px !important;
+	font-size: 20px !important;
 	font-weight: 700;
 	font-style: italic;
 }
@@ -274,7 +283,7 @@ h3{
 
 .timeline h4.t_line_month, #content .timeline h4.t_line_month{
 	font-family: $font-two !important;
-	font-size: 18px !important;
+	font-size: 20px !important;
 	font-weight: 700;
 	font-style: italic;
 	color: $gray !important;
@@ -689,7 +698,7 @@ input#mc-embedded-subscribe{
 	font-style: italic !important;
 	text-transform: capitalize !important;
 	letter-spacing: 0px !important;
-	font-size: 18px !important;
+	font-size: 20px !important;
 	padding: 5px 100px !important;
 	margin: 0 auto !important;
 	border: 1px solid $orange !important;
@@ -708,7 +717,7 @@ input#mc-embedded-subscribe{
 	content: "";
 	position: absolute;
 	width: 100%;
-	height: 40px;
+	height: 44px;
 	background: repeating-linear-gradient(
 		55deg,
 		$orange,
@@ -753,7 +762,7 @@ a.shadow-btn-orange.wobble{
 	font-style: italic !important;
 	text-transform: capitalize !important;
 	letter-spacing: 0px !important;
-	font-size: 18px !important;
+	font-size: 20px !important;
 	padding: 5px 100px !important;
 	margin: 0 auto !important;
 
@@ -787,7 +796,7 @@ a.shadow-btn-dark-teal.wobble{
 	font-style: italic !important;
 	text-transform: capitalize !important;
 	letter-spacing: 0px !important;
-	font-size: 18px !important;
+	font-size: 20px !important;
 	padding: 5px 100px !important;
 	margin: 0 auto !important;
 
