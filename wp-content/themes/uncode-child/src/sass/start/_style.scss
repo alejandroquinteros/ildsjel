@@ -10,6 +10,7 @@ Text Domain: uncode
 
 
 
+
 @font-face {
 	font-family: $font-one;
 	src: url('http://localhost:8888/ildsjel/wp-content/themes/uncode-child/fonts/poppins/poppins-light-webfont.woff2') format('woff2'),
@@ -75,11 +76,6 @@ Text Domain: uncode
 		url('http://localhost:8888/ildsjel/wp-content/themes/uncode-child/fonts/house/HouseSlant.woff') format('woff');
 	font-style: normal;
 
-}
-
-body{
-	padding: 20px !important;
-	background-color: $gray !important;
 }
 
 .plan {
@@ -168,6 +164,8 @@ h3{
 		font-family: $font-three;
 		font-size: 60px !important;
 		color: $dark-teal !important;
+		position: relative;
+		z-index: 100;
 	}
 	
 	p,b,p b, strong{
@@ -208,11 +206,11 @@ h3{
 	
 	h4 {
 		position: absolute;
-		font-size: 270px !important;
-		z-index:-10;
-		top:-120px;
+		font-size: 150px !important;
+		z-index:0;
+		top:65px;
 		font-family: $font-four;
-		letter-spacing:10px;
+		letter-spacing:2px;
 		color: $light-teal;
 		left: 50%;
 		-ms-transform: translateX(-50%) rotate(-7deg); /* IE 9 */
@@ -236,6 +234,9 @@ h3{
 	overflow: visible;
 }
 
+.preview .uncol {
+    overflow: hidden !important;
+}
 
 .owl-dots-inside .owl-dots {
 	margin-bottom: -41px !important;
@@ -394,6 +395,69 @@ div.pp_default .pp_content_container .pp_left, div.pp_default .pp_content_contai
 	font-size: 15px !important;
 }
 
+h3.t-entry-title.h6 {
+		font-family: $font-three !important;
+		font-size: 60px !important;
+		color: $gray !important;
+		font-style: inherit !important;
+		&:before{
+			content: "";
+			border-top: 1px solid $gray;
+			width: 40%;
+			height: 1px;
+			position: relative;
+			display: block;
+			text-align: center;
+			margin: 0 auto;
+			margin-bottom: 20px;
+		}
+		&:after{
+			content: "";
+			border-bottom: 1px solid $gray;
+			width: 40%;
+			height: 1px;
+			position: relative;
+			display: block;
+			text-align: center;
+			margin: 0 auto;
+			margin-top: 30px;
+		}
+}
+
+.tmb .t-entry p.t-entry-meta span {
+    font-size: 15px !important;
+    font-weight: 500 !important;
+}
+
+.owl-dot{
+	span{
+    background: $gray !important;
+    border: 1px solid $dark-teal !important;
+	}
+}
+
+.owl-dot.active{
+		span{
+			background: $dark-teal !important;
+		}
+}
+
+.tmb-light.tmb-content-under.tmb .t-entry p.t-entry-meta span {
+    color: $dark-teal !important;
+    font-family: $font-two !important;
+    font-size:18px !important;
+    font-style: italic !important;
+    font-weight: 600 !important;
+}
+
+.tmb-light.tmb .t-entry-text p {
+    font-size: 13px !important;
+    margin-top:0px !important;
+    font-weight: 500 !important;
+    color: $dark-teal !important;
+}
+
+
 .gray {
 	background-color: $gray;
 
@@ -403,7 +467,7 @@ div.pp_default .pp_content_container .pp_left, div.pp_default .pp_content_contai
 		color: $orange !important;
 	}
 	
-	p,b,p b{
+	p,b,p b, strong{
 		font-family: $font-one;
 		color: $orange !important;
 		font-size: 15px !important;
@@ -414,6 +478,45 @@ div.pp_default .pp_content_container .pp_left, div.pp_default .pp_content_contai
 		font-weight:400  !important;
 	}
 }
+
+.portfolio-header {
+	h1{
+		font-family: $font-three;
+		font-size: 60px !important;
+		color: $gray !important;
+		margin-bottom: 30px;
+	}
+
+	h3{
+		color: $gray !important;
+	}
+
+	h5{
+		color: $gray !important;
+	}
+	
+	h5:before, h5:after{
+		background: $gray !important;
+	}
+
+	p,b,p b, strong{
+		font-family: $font-one;
+		color: $gray !important;
+		font-size: 25px !important;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+	p{
+		font-weight:400  !important;
+	}
+	a{
+		color: $gray !important;
+		&:hover{
+			color: $teal !important;
+		}
+	}
+}
+
 
 .dark-teal {
 	background-color: $dark-teal;
@@ -541,16 +644,20 @@ h5:after{
 }
 
 .pad-top{
-	padding-top: 100px;
+	padding-top: 100px !important;
 }
 
 .pad-btm{
-	padding-bottom: 100px;
+	padding-bottom: 100px !important;
 }
 
 .pad-top-btm{
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 100px !important;
+	padding-bottom: 100px !important;
+}
+
+.teal.preview .uncont {
+    padding-bottom: 100px;
 }
 
 .intro .play-video, .play-video {
@@ -812,6 +919,124 @@ a.shadow-btn-dark-teal.wobble{
 		top: -4px;
 	}
 }
-	
 
+
+.music .fa {
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.music:hover .fa{
+    opacity: 1;
+}
+
+i.fa.fa-volume-up.one {
+    color: $orange !important;
+    font-size: 17px;
+}
+
+.music-lines.two {
+    width: 100%;
+    height: 100px;
+    background-image: url('http://localhost:8888/ildsjel/wp-content/uploads/2016/09/lines-orange.svg');
+    background-size: 32.75px;
+    background-repeat: repeat-x;
+}
+
+path.note-gg.two, path.note-ee.two, path.note-a.two, path.note-c.two {
+    fill: $orange;
+    transition: all 0.3s ease-in-out;
+}
+
+svg:hover path.note-gg.two, svg:hover path.note-ee.two, svg:hover path.note-a.two, svg:hover path.note-c.two  {
+    fill: $orange;
+}
+
+svg.gg {
+    width: 74px;
+    position: absolute;
+    top: -6px;
+    left: 35%;
+}
+
+svg.ee {
+    width: 74px;
+    position: absolute;
+    top: 0px;
+    right: 22%;
+}
+
+svg.aa {
+    width: 21.5px;
+    position: absolute;
+    top: -14px;
+    right: 43%;
+}
+
+svg.c {
+    width: 21.5px;
+    position: absolute;
+    top: 18px;
+    left: 22%;
+}
+
+svg.aa:hover {
+    -webkit-animation-name: note-two; 
+    animation-name: note-two;
+    -webkit-animation-duration: 0.5s; 
+    animation-duration: 0.5s; 
+}
+
+@-webkit-keyframes note-two {
+    0%   {top: -14px;}
+    50%  {top: -34px;}
+    100% {top: -14px;}
+} 
+
+/* Standard syntax */ 
+@keyframes note-two {
+    0%   {top: -14px;}
+    50%  {top: -34px;}
+    100% {top: -14px;}
+} 
+
+svg.c:hover {
+    -webkit-animation-name: note-three; 
+    animation-name: note-three;
+    -webkit-animation-duration: 0.5s; 
+    animation-duration: 0.5s; 
+}
+
+@-webkit-keyframes note-three {
+    0%   {top: 18px;}
+    50%  {top: -8px;}
+    100% {top: 18px;}
+} 
+
+/* Standard syntax */ 
+@keyframes note-three {
+    0%   {top: 18px;}
+    50%  {top: -8px;}
+    100% {top: 18px;}
+} 
+
+svg.gg:hover, svg.ee:hover {
+    -webkit-animation-name: note; 
+    animation-name: note;
+    -webkit-animation-duration: 0.5s; 
+    animation-duration: 0.5s; 
+}
+
+@-webkit-keyframes note {
+    0%   {top: -6px;}
+    50%  {top: -20px;}
+    100% {top: -6px;}
+} 
+
+/* Standard syntax */ 
+@keyframes note {
+    0%   {top: -6px;}
+    50%  {top: -20px;}
+    100% {top: -6px;}
+} 
 
